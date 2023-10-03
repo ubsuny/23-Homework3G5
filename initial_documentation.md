@@ -17,6 +17,16 @@ Where:
 - k is the drag coefficient, which depends on the shape and size of the object.
 - v is the magnitude of the velocity of the projectile.
 
+### Here are the key principles and equations that govern projectile motion:
+
+1. Initial Velocity (V₀): The object is given an initial velocity V₀ at some angle θ above the horizontal.
+
+2. Gravity (g): Gravity acts vertically downward with an acceleration of approximately 9.81 m/s² (on Earth). This acceleration affects the vertical motion of the projectile.
+
+3. Horizontal Motion: In the absence of air resistance, there is no horizontal force acting on the object once it is launched. As a result, the horizontal velocity (Vx) remains constant throughout the motion.
+
+4. Vertical Motion: The vertical motion is influenced solely by the force of gravity. The vertical velocity (Vy) changes as the object rises and falls.
+
 
 
 
