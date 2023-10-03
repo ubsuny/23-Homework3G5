@@ -41,4 +41,29 @@ The equations that describe projectile motion in idealized condition (i.e. **no 
 
 
 
+The equations governing projectile motion with air resistance become differential equations, and their solutions typically require numerical methods. The equations of motion in this case are:
 
+The equations governing projectile motion with air resistance become differential equations, and their solutions typically require numerical methods. The equations of motion in this case are:
+
+**Horizontal motion:**
+\[F_{dx} = -k * V_x * |V_x|\]
+
+Where:
+- \(F_{dx}\) is the horizontal component of the drag force.
+
+**Vertical motion:**
+\[F_{dy} = -mg - k * V_y * |V_y|\]
+
+Where:
+- \(F_{dy}\) is the vertical component of the drag force.
+
+The equations for \(V_x\) and \(V_y\) become:
+
+\[V_x = V_{0x} - \frac{k * V_x * |V_x|}{m} * \Delta t\]
+\[V_y = V_{0y} - \left(g + \frac{k * V_y * |V_y|}{m}\right) * \Delta t\]
+
+Here,
+- \(V_{0x}\) and \(V_{0y}\) are the initial horizontal and vertical velocities,
+- \(m\) is the mass of the projectile,
+- \(g\) is the acceleration due to gravity, and
+- \(\Delta t\) is the time step used in numerical integration.
