@@ -43,3 +43,6 @@ theta = np.radians(45)  # Launch angle in radians
 # ...
 
 # Output will show the horizontal distance traveled
+```
+**Output**
+![Horizontal distance](image.png)
