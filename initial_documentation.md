@@ -27,6 +27,43 @@ Where:
 
 4. Vertical Motion: The vertical motion is influenced solely by the force of gravity. The vertical velocity (Vy) changes as the object rises and falls.
 
+The equations that describe projectile motion in idealized condition (i.e. **no air resistance**) are as follows:
+
+**Horizontal Motion:**
+
+- Distance traveled in the horizontal direction (range, R) is given by: R = (V₀² * sin(2θ)) / g
+
+**Vertical Motion:**
+
+- The maximum height (H) reached by the projectile is given by: H = (V₀² * sin²(θ)) / (2 * g)
+- The time of flight (T) is the total time the projectile is in the air and is given by: T = (2 * V₀ * sin(θ)) / g
+- The vertical position (y) at any time (t) is given by: y = V₀ * sin(θ) * t - (1/2) * g * t²
 
 
 
+The equations governing projectile motion with air resistance become differential equations, and their solutions typically require numerical methods. The equations of motion in this case are:
+
+The equations governing projectile motion with air resistance become differential equations, and their solutions typically require numerical methods. The equations of motion in this case are:
+
+**Horizontal motion:**
+\[F_{dx} = -k * V_x * |V_x|\]
+
+Where:
+- \(F_{dx}\) is the horizontal component of the drag force.
+
+**Vertical motion:**
+\[F_{dy} = -mg - k * V_y * |V_y|\]
+
+Where:
+- \(F_{dy}\) is the vertical component of the drag force.
+
+The equations for \(V_x\) and \(V_y\) become:
+
+\[V_x = V_{0x} - \frac{k * V_x * |V_x|}{m} * \Delta t\]
+\[V_y = V_{0y} - \left(g + \frac{k * V_y * |V_y|}{m}\right) * \Delta t\]
+
+Here,
+- \(V_{0x}\) and \(V_{0y}\) are the initial horizontal and vertical velocities,
+- \(m\) is the mass of the projectile,
+- \(g\) is the acceleration due to gravity, and
+- \(\Delta t\) is the time step used in numerical integration.
