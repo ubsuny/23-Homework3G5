@@ -67,3 +67,8 @@ Here,
 - \(m\) is the mass of the projectile,
 - \(g\) is the acceleration due to gravity, and
 - \(\Delta t\) is the time step used in numerical integration.
+
+## Resources:
+["Fundamentals of Physics" by Halliday, Resnick, and Walker](https://elearn.daffodilvarsity.edu.bd/pluginfile.php/987150/mod_label/intro/fundamentals-of-physics-textbook.pdf)
+
+["Projectile Motion with air drag"](https://demonstrations.wolfram.com/ProjectileWithAirDrag/)
