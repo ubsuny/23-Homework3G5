@@ -78,5 +78,7 @@ When the projectile is close to the ground, the time step might be too large to 
 # Visualization:
 The code visualizes the trajectories using a scatter plot. Different trajectories are distinguished using unique colors. 
 
+![Projectile_motion_with_air_drag](projectile_motion_with_air_drag.png)
+
 
 
