@@ -129,3 +129,5 @@ This notebook [projectile_module](projectile_module.py) presents an implementati
 Invoke the function with a desired starting velocity to compute and visualize the projectile's trajectory:
 ```python
 projectile_with_drag(30)
+
+# You can put some references. I guess that counts. 
