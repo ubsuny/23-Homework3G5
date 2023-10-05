@@ -80,5 +80,52 @@ The code visualizes the trajectories using a scatter plot. Different trajectorie
 
 ![Projectile_motion_with_air_drag](projectile_motion_with_air_drag.png)
 
+## Implementing pylint:
 
+[Projectile_Motion](https://colab.research.google.com/drive/1LmtiwLG57bR6BSk1yL-Y8sUrGWs1CedB?usp=sharing)
 
+# Projectile Motion with Air Drag - Emphasizing Functional Programming
+
+This notebook [projectile_module](projectile_module.py) presents an implementation of the projectile motion equation while considering air resistance. The trajectories for a set of projectile angles are visualized using the `matplotlib` library. Special emphasis is placed on the functional programming aspects used in the implementation.
+
+## Dependencies:
+
+- `math`: Used for trigonometric calculations and other mathematical operations.
+- `matplotlib.pyplot`: Essential for plotting the trajectories of the projectile.
+
+## Core Principles of Functional Programming Used:
+
+1. **First-Class and Higher-Order Functions**: The lambda function, a core concept in functional programming, is employed in the code to map the positions from meters to kilometers.
+2. **Pure Functions**: The main function `projectile_with_drag` has no side effects, which means given the same input, it will always produce the same output. Also, it doesn't modify any state outside its scope.
+3. **Immutability**: The constants like `g`, `dt`, and `const` are set and not changed throughout the code, adhering to the principle of immutability.
+4. **Use of Map**: Though not directly using Python's `map` function, the application of the lambda function across a list (`x_list[i]`) is a direct reflection of the `map` functionality in functional programming.
+
+## Function Details:
+
+### `projectile_with_drag(v_start)`
+
+#### Parameters:
+- `v_start`: Initial velocity of the projectile (meters per second).
+
+#### Functional Description:
+
+1. **Lambda Functions**: The lambda function is used to convert positions from meters to kilometers for both x and y coordinates during plotting:
+    ```python
+    lambda z: z/1000
+    ```
+2. **List Comprehensions**: The code employs list comprehensions, which is a functional programming construct, to convert angles from degrees to radians:
+    ```python
+    angle = [math.radians(degrees) for degrees in angle_degree]
+    ```
+
+#### Outputs:
+
+- A plot showcasing the trajectories of the projectile for each specified launch angle.
+
+---
+
+## Usage:
+
+Invoke the function with a desired starting velocity to compute and visualize the projectile's trajectory:
+```python
+projectile_with_drag(30)
