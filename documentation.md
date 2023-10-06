@@ -130,4 +130,9 @@ Invoke the function with a desired starting velocity to compute and visualize th
 ```python
 projectile_with_drag(30)
 
-# You can put some references. I guess that counts. 
+# Some useful references
+[1] https://docs.python.org/3/library/math.html#math.radians
+[2] https://farside.ph.utexas.edu/teaching/336k/Newton/node29.html
+[3] https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
+
+
