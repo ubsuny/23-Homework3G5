@@ -129,3 +129,14 @@ This notebook [projectile_module](projectile_module.py) presents an implementati
 Invoke the function with a desired starting velocity to compute and visualize the projectile's trajectory:
 ```python
 projectile_with_drag(30)
+```
+## Resources:
+["Computational Physics" by Nicholas J. Giordano & HisaoNakanishi](https://docviewer.xdocs.net/view.php)  **Section2.2**
+
+["Fundamentals of Physics" by Halliday, Resnick, and Walker](https://elearn.daffodilvarsity.edu.bd/pluginfile.php/987150/mod_label/intro/fundamentals-of-physics-textbook.pdf)
+
+["Projectile Motion with air drag"](https://demonstrations.wolfram.com/ProjectileWithAirDrag/)
+
+[Chat_GPT](https://chat.openai.com/)
+
+[Google_Bard](https://bard.google.com/chat)
